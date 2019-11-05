@@ -1,0 +1,57 @@
+/* Style the header */
+
+topbox {
+    max-width:960;
+}
+
+.myname {
+    float: left;    
+    width: 30%;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    border-block-color: #cccccc ;
+  }
+
+  navigationpanel {
+    float: right;
+    width: 70%;
+    background-color:  white ;
+  }
+
+  navigationpanel ul {
+    list-style-type: none;
+  }
+
+  li {
+    float:  right
+   }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    background-color:   white ;
+  }
+
+/*  Clearing floats for the "about me title" + formating for that section */
+
+.pagetitle {
+    clear:  both;
+    color: #4aaaa5;
+}
+
+.mypicture {
+    float:  left;
+}
+
+#description {
+    color:#777777;
+    text-align: left;
+}
+
+
+# description ul {
+    text-align: left;
+    margin: 150px;
+}

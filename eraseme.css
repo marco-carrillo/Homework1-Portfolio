@@ -1,0 +1,21 @@
+/* Style the header */
+topindex {
+    max-width: 960;;
+    background-color: #666;
+  }
+  
+  /* Create two columns/boxes that floats next to each other */
+.name {
+    float: left;
+    width: 30%;
+    background-color=#666;
+  }
+
+  .right_options {
+      float:right;
+      width: 70%;
+}
+
+.description {
+
+}
