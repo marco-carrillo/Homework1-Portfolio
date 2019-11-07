@@ -1,0 +1,74 @@
+/* Style the header */
+
+topbox {
+    max-width:960;
+}
+
+.myname {
+    float: left;    
+    width: 30%;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    border-block-color: #cccccc ;
+    height:  60px;
+    line-height: 1.7;
+    text-align: center;
+
+  }
+
+  navigationpanel {
+    float: right;
+    width: 70%;
+    background-color:  white ;
+    height: 60px;
+    line-height: 1.7;
+}
+
+  navigationpanel ul {
+    list-style-type: none;
+  }
+
+  li {
+    float:  right
+   }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    background-color:   white ;
+  }
+
+/*  Clearing floats for the "about me title" + formating for that section */
+
+.pagetitle {
+    clear:  both;
+    color: #4aaaa5;
+    text-indent: 75px;
+}
+
+.mypicture {
+    float:  left;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right:40px;
+    padding-bottom: 10px;
+}
+
+#description {
+    color:#777777;
+    background-color:#ffffff;
+    text-align: left;
+    border-color:#dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 80px;
+}
+
+footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+}
