@@ -7,13 +7,13 @@
 
 <body>
 
-
     <!--****************************************************************************************
        This is the top section, which has my name, and a horizontal menu with links
-       to three HTML pages 
+       to three HTML pages.  This section is identical for all of the three files
+       1) index.html, 2) contact.html, and 3) portfolio.html 
        ***************************************************************************************-->
 
-    <div class="top_box">  <!-- This is the box with the name + navigation controls on top -->
+       <div class="top_box">  <!-- This is the box with the name + navigation controls on top -->
 
         <h1 id="myname">Marco Carrillo</h1>
  
@@ -23,9 +23,9 @@
                <ul>
                     <li><a href="index.html">About</a></li>
                     <li>|</li>
+                    <li><a href="Portfolio.html">Portfolio</a></li>
+                    <li>|</li>
                     <li><a href="Contact.html">Contact</a></li>
-                   <li>|</li>
-                   <li><a href="Portfolio.html">Portfolio</a></li>
                 </ul>    
             </div> 
     
@@ -33,9 +33,9 @@
     </div>
 
     <!--****************************************************************************************
-       This is the middle section, whose content will be replaced based on what option
-       the user selects.  Note that the top section is repeated identically in all three
-       files.
+       This is the middle section, a wrapper (middle_box_2) that will contain the subtle background.  
+       That wrapper will contain another wrapper (middle_box_portfolio) that will contain five
+       pictures and a definition
        ***************************************************************************************-->
 
     <div class="middle_box2">  <!-- This is the section that contains background -->
@@ -49,18 +49,22 @@
             <img class="portfoliopic3" src="assets/images/Trivia-game.jpg" alt="My first portfolio1">
             <img class="portfoliopic4" src="assets/images/RutgersInfoWidget.jpg" alt="My first portfolio2">
             <img class="portfoliopic5" src="assets/images/Rock-Paper-Scissors.jpg" alt="My first portfolio3">
-        
+            <div class="hangman">Hangman</div> 
+            <div class="rpg-game">RPG Game</div>
+            <div class="trivia-game">Trivia Game</div>
+            <div class="rutgers-info">Rutgers Info Widget</div>
+            <div class="rps">Rock-paper-scissors</div>
        </div>
 
     </div>
 
     <!--****************************************************************************************
-        This is the bottom section, will have the stick footer
+        This is the bottom section, will have the sticky footer.  This section is identical for
+        all of the three files:  1) index.html, 2) contact.html, and 3) portfolio.html
      ***************************************************************************************-->
 
-
-    <div class=page_footer>  <!-- This is the section for the footer-->
-        <p>Copyright (c)</p>
+     <div class=page_footer>  <!-- This is the section for the footer-->
+        <p>Copyright (c) - Marco Carrillo</p>
     </div>
 
 </body>

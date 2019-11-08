@@ -7,13 +7,13 @@
 
 <body>
 
-
     <!--****************************************************************************************
        This is the top section, which has my name, and a horizontal menu with links
-       to three HTML pages 
+       to three HTML pages.  This section is identical for all of the three files
+       1) index.html, 2) contact.html, and 3) portfolio.html 
        ***************************************************************************************-->
 
-    <div class="top_box">  <!-- This is the box with the name + navigation controls on top -->
+       <div class="top_box">  <!-- This is the box with the name + navigation controls on top -->
 
         <h1 id="myname">Marco Carrillo</h1>
  
@@ -23,9 +23,9 @@
                <ul>
                     <li><a href="index.html">About</a></li>
                     <li>|</li>
+                    <li><a href="Portfolio.html">Portfolio</a></li>
+                    <li>|</li>
                     <li><a href="Contact.html">Contact</a></li>
-                   <li>|</li>
-                   <li><a href="Portfolio.html">Portfolio</a></li>
                 </ul>    
             </div> 
     
@@ -33,9 +33,9 @@
     </div>
 
     <!--****************************************************************************************
-       This is the middle section, whose content will be replaced based on what option
-       the user selects.  Note that the top section is repeated identically in all three
-       files.
+       This is the middle section, a wrapper (middle_box) that will contain the subtle background.  
+       That wrapper will contain another wrapper (middle_content) that will contain input boxes
+       for a user to enter his/her name, email and a message.
        ***************************************************************************************-->
 
     <div class="middle_box">  <!-- This is the section that contains background -->
@@ -46,9 +46,9 @@
             <div class="contact_form">
                 <form action="/action_page.php">
                      Name:   <br><input type="text" name="contact_name" value="John Smith"><br><br>
-                     E-mail: <br><input type="text" name="contact_email" value="example@gmail.com"><br><br>
-                     Message:<br><input type="text" name="contact_msg" value=""><br><br>
-                     <input type="submit" value="Submit"><br><br>
+                     E-mail: <br><input type="email" name="contact_email" value="example@gmail.com"><br><br>
+                     Meesage:<br><textarea id="contact-msg" name="msg" placeholder="" ></textarea><br>
+                             <br> <input type="submit" value="Submit"><br><br>
                 </form> 
             </div>
 
@@ -57,11 +57,12 @@
     </div>
 
     <!--****************************************************************************************
-        This is the bottom section, will have the stick footer
+        This is the bottom section, will have the sticky footer.  This section is identical for
+        all of the three files:  1) index.html, 2) contact.html, and 3) portfolio.html
      ***************************************************************************************-->
 
-    <div class=page_footer>  <!-- This is the section for the footer-->
-        <p>Copyright (c)</p>
+     <div class=page_footer>  <!-- This is the section for the footer-->
+        <p>Copyright (c) - Marco Carrillo</p>
     </div>
 
 </body>
