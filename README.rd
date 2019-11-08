@@ -4,8 +4,12 @@ The structure contains a directory named assets, which in turn contains two diff
 
 The repo root level will contain three html files index, contact, and portfolio.
 
-The current stage is in development, therefore it is still not finished.
+File index contains section "About me".
 
-Last update as of 11/4/2019 at 9:18AM.
+File contact contains all functonality needed to contact me.
+
+File portfolio contains the framework to a potential future portfolio.
+
+As of 11/8, this project is finished and has been submitted.
 
 Please don't update.  Repo created as public but this is only intended to contain personal work to be shared with TAs for grading.
